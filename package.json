@@ -1,0 +1,19 @@
+{
+  "name": "CSS-Natours",
+  "version": "1.0.0",
+  "description": "learn advance css",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": "https://github.com/PanupongDeve/CSS-Natours.git",
+  "author": "Panupong",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "jquery": "^3.3.1"
+  }
+}
